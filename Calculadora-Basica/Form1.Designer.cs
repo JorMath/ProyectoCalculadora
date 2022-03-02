@@ -54,6 +54,9 @@ namespace Calculadora_Basica
             this.btnPunto = new System.Windows.Forms.Button();
             this.btnCero = new System.Windows.Forms.Button();
             this.btnSigno = new System.Windows.Forms.Button();
+            this.btnPi = new System.Windows.Forms.Button();
+            this.btnLogaritmo = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtResultado
@@ -64,7 +67,7 @@ namespace Calculadora_Basica
             this.txtResultado.Multiline = true;
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.ReadOnly = true;
-            this.txtResultado.Size = new System.Drawing.Size(340, 46);
+            this.txtResultado.Size = new System.Drawing.Size(482, 46);
             this.txtResultado.TabIndex = 0;
             this.txtResultado.Text = "0";
             this.txtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -214,7 +217,7 @@ namespace Calculadora_Basica
             // btnCuadrado
             // 
             this.btnCuadrado.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCuadrado.Location = new System.Drawing.Point(293, 68);
+            this.btnCuadrado.Location = new System.Drawing.Point(435, 68);
             this.btnCuadrado.Name = "btnCuadrado";
             this.btnCuadrado.Size = new System.Drawing.Size(60, 60);
             this.btnCuadrado.TabIndex = 15;
@@ -226,7 +229,7 @@ namespace Calculadora_Basica
             // btnRaizCuadrada
             // 
             this.btnRaizCuadrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRaizCuadrada.Location = new System.Drawing.Point(227, 68);
+            this.btnRaizCuadrada.Location = new System.Drawing.Point(369, 68);
             this.btnRaizCuadrada.Name = "btnRaizCuadrada";
             this.btnRaizCuadrada.Size = new System.Drawing.Size(60, 60);
             this.btnRaizCuadrada.TabIndex = 14;
@@ -238,7 +241,7 @@ namespace Calculadora_Basica
             // btnMultiplicar
             // 
             this.btnMultiplicar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMultiplicar.Location = new System.Drawing.Point(293, 134);
+            this.btnMultiplicar.Location = new System.Drawing.Point(435, 131);
             this.btnMultiplicar.Name = "btnMultiplicar";
             this.btnMultiplicar.Size = new System.Drawing.Size(60, 60);
             this.btnMultiplicar.TabIndex = 17;
@@ -250,7 +253,7 @@ namespace Calculadora_Basica
             // btnDividir
             // 
             this.btnDividir.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDividir.Location = new System.Drawing.Point(227, 134);
+            this.btnDividir.Location = new System.Drawing.Point(369, 133);
             this.btnDividir.Name = "btnDividir";
             this.btnDividir.Size = new System.Drawing.Size(60, 60);
             this.btnDividir.TabIndex = 16;
@@ -262,7 +265,7 @@ namespace Calculadora_Basica
             // btnRestar
             // 
             this.btnRestar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRestar.Location = new System.Drawing.Point(293, 199);
+            this.btnRestar.Location = new System.Drawing.Point(435, 197);
             this.btnRestar.Name = "btnRestar";
             this.btnRestar.Size = new System.Drawing.Size(60, 60);
             this.btnRestar.TabIndex = 19;
@@ -274,7 +277,7 @@ namespace Calculadora_Basica
             // btnSumar
             // 
             this.btnSumar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSumar.Location = new System.Drawing.Point(227, 199);
+            this.btnSumar.Location = new System.Drawing.Point(369, 196);
             this.btnSumar.Name = "btnSumar";
             this.btnSumar.Size = new System.Drawing.Size(60, 60);
             this.btnSumar.TabIndex = 18;
@@ -286,9 +289,9 @@ namespace Calculadora_Basica
             // btnResultado
             // 
             this.btnResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnResultado.Location = new System.Drawing.Point(227, 265);
+            this.btnResultado.Location = new System.Drawing.Point(145, 326);
             this.btnResultado.Name = "btnResultado";
-            this.btnResultado.Size = new System.Drawing.Size(126, 60);
+            this.btnResultado.Size = new System.Drawing.Size(60, 60);
             this.btnResultado.TabIndex = 20;
             this.btnResultado.Text = "=";
             this.btnResultado.UseVisualStyleBackColor = true;
@@ -297,7 +300,7 @@ namespace Calculadora_Basica
             // btnPunto
             // 
             this.btnPunto.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPunto.Location = new System.Drawing.Point(145, 329);
+            this.btnPunto.Location = new System.Drawing.Point(12, 326);
             this.btnPunto.Name = "btnPunto";
             this.btnPunto.Size = new System.Drawing.Size(60, 60);
             this.btnPunto.TabIndex = 23;
@@ -308,7 +311,7 @@ namespace Calculadora_Basica
             // btnCero
             // 
             this.btnCero.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCero.Location = new System.Drawing.Point(78, 329);
+            this.btnCero.Location = new System.Drawing.Point(78, 328);
             this.btnCero.Name = "btnCero";
             this.btnCero.Size = new System.Drawing.Size(60, 60);
             this.btnCero.TabIndex = 22;
@@ -319,19 +322,58 @@ namespace Calculadora_Basica
             // btnSigno
             // 
             this.btnSigno.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSigno.Location = new System.Drawing.Point(12, 329);
+            this.btnSigno.Location = new System.Drawing.Point(369, 263);
             this.btnSigno.Name = "btnSigno";
-            this.btnSigno.Size = new System.Drawing.Size(60, 60);
+            this.btnSigno.Size = new System.Drawing.Size(126, 57);
             this.btnSigno.TabIndex = 21;
             this.btnSigno.Text = "+/-";
             this.btnSigno.UseVisualStyleBackColor = true;
             this.btnSigno.Click += new System.EventHandler(this.btnSigno_Click);
             // 
+            // btnPi
+            // 
+            this.btnPi.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPi.Location = new System.Drawing.Point(303, 325);
+            this.btnPi.Name = "btnPi";
+            this.btnPi.Size = new System.Drawing.Size(60, 60);
+            this.btnPi.TabIndex = 24;
+            this.btnPi.Tag = "p";
+            this.btnPi.Text = "π";
+            this.btnPi.UseVisualStyleBackColor = true;
+            this.btnPi.Click += new System.EventHandler(this.clickOperador);
+            // 
+            // btnLogaritmo
+            // 
+            this.btnLogaritmo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogaritmo.Location = new System.Drawing.Point(369, 326);
+            this.btnLogaritmo.Name = "btnLogaritmo";
+            this.btnLogaritmo.Size = new System.Drawing.Size(126, 60);
+            this.btnLogaritmo.TabIndex = 25;
+            this.btnLogaritmo.Tag = "l";
+            this.btnLogaritmo.Text = "log10(x)";
+            this.btnLogaritmo.UseVisualStyleBackColor = true;
+            this.btnLogaritmo.Click += new System.EventHandler(this.clickOperador);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(303, 68);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(60, 60);
+            this.button1.TabIndex = 26;
+            this.button1.Tag = "%";
+            this.button1.Text = "%";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.clickOperador);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(360, 424);
+            this.ClientSize = new System.Drawing.Size(522, 391);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnLogaritmo);
+            this.Controls.Add(this.btnPi);
             this.Controls.Add(this.btnPunto);
             this.Controls.Add(this.btnCero);
             this.Controls.Add(this.btnSigno);
@@ -369,29 +411,32 @@ namespace Calculadora_Basica
         #endregion
 
         private System.Windows.Forms.TextBox txtResultado;
-        private System.Windows.Forms.Button btnUno;
-        private System.Windows.Forms.Button btnDos;
-        private System.Windows.Forms.Button btnTres;
-        private System.Windows.Forms.Button btnCuatro;
-        private System.Windows.Forms.Button btnCinco;
-        private System.Windows.Forms.Button btnSeis;
-        private System.Windows.Forms.Button btnSiete;
-        private System.Windows.Forms.Button btnOcho;
-        private System.Windows.Forms.Button btnNueve;
-        private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button btnBorrarTodo;
-        private System.Windows.Forms.Button btnQuitar;
-        private System.Windows.Forms.Button btnCuadrado;
-        private System.Windows.Forms.Button btnRaizCuadrada;
-        private System.Windows.Forms.Button btnMultiplicar;
-        private System.Windows.Forms.Button btnDividir;
-        private System.Windows.Forms.Button btnRestar;
-        private System.Windows.Forms.Button btnSumar;
-        private System.Windows.Forms.Button btnResultado;
-        private System.Windows.Forms.Button btnPunto;
-        private System.Windows.Forms.Button btnCero;
-        private System.Windows.Forms.Button btnSigno;
+        public System.Windows.Forms.Button btnUno;
+        public System.Windows.Forms.Button btnDos;
+        public System.Windows.Forms.Button btnTres;
+        public System.Windows.Forms.Button btnCuatro;
+        public System.Windows.Forms.Button btnCinco;
+        public System.Windows.Forms.Button btnSeis;
+        public System.Windows.Forms.Button btnSiete;
+        public System.Windows.Forms.Button btnOcho;
+        public System.Windows.Forms.Button btnNueve;
+        public System.Windows.Forms.Button btnBorrar;
+        public System.Windows.Forms.Button btnBorrarTodo;
+        public System.Windows.Forms.Button btnQuitar;
+        public System.Windows.Forms.Button btnCuadrado;
+        public System.Windows.Forms.Button btnRaizCuadrada;
+        public System.Windows.Forms.Button btnMultiplicar;
+        public System.Windows.Forms.Button btnDividir;
+        public System.Windows.Forms.Button btnRestar;
+        public System.Windows.Forms.Button btnSumar;
+        public System.Windows.Forms.Button btnResultado;
+        public System.Windows.Forms.Button btnPunto;
+        public System.Windows.Forms.Button btnCero;
+        public System.Windows.Forms.Button btnSigno;
+        public System.Windows.Forms.Button btnPi;
+        public System.Windows.Forms.Button btnLogaritmo;
+        public System.Windows.Forms.Button button1;
     }
 }
 

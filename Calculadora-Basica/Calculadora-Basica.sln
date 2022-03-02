@@ -5,16 +5,24 @@ VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora-Basica", "Calculadora-Basica.csproj", "{48218D6D-E60A-48EC-837B-E26DC5F86043}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Calculadora Básica", "..\..\Instalador proyecto Final v1\Instalador Calculadora\Instalador Calculadora.vdproj", "{043AB53E-79DF-4B3F-86E5-A536C5BBEE7D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador-Proyecto-Final", "..\Instalador-Proyecto-Final\Instalador-Proyecto-Final.vdproj", "{762FC5B0-6FE0-4BC4-B638-7E983747A052}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{48218D6D-E60A-48EC-837B-E26DC5F86043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48218D6D-E60A-48EC-837B-E26DC5F86043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48218D6D-E60A-48EC-837B-E26DC5F86043}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{48218D6D-E60A-48EC-837B-E26DC5F86043}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{48218D6D-E60A-48EC-837B-E26DC5F86043}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48218D6D-E60A-48EC-837B-E26DC5F86043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{043AB53E-79DF-4B3F-86E5-A536C5BBEE7D}.Debug|Any CPU.ActiveCfg = Release
+		{043AB53E-79DF-4B3F-86E5-A536C5BBEE7D}.Release|Any CPU.ActiveCfg = Release
+		{762FC5B0-6FE0-4BC4-B638-7E983747A052}.Debug|Any CPU.ActiveCfg = Debug
+		{762FC5B0-6FE0-4BC4-B638-7E983747A052}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

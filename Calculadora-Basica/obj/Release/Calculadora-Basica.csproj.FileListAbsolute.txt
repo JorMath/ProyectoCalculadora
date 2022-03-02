@@ -1,0 +1,10 @@
+C:\Users\ASUS\OneDrive - Escuela Politécnica Nacional\Escritorio\Proyecto Calculadora\Calculadora-Basica\bin\Release\Calculadora-Basica.exe.config
+C:\Users\ASUS\OneDrive - Escuela Politécnica Nacional\Escritorio\Proyecto Calculadora\Calculadora-Basica\bin\Release\Calculadora-Basica.exe
+C:\Users\ASUS\OneDrive - Escuela Politécnica Nacional\Escritorio\Proyecto Calculadora\Calculadora-Basica\bin\Release\Calculadora-Basica.pdb
+C:\Users\ASUS\OneDrive - Escuela Politécnica Nacional\Escritorio\Proyecto Calculadora\Calculadora-Basica\obj\Release\Calculadora_Basica.Form1.resources
+C:\Users\ASUS\OneDrive - Escuela Politécnica Nacional\Escritorio\Proyecto Calculadora\Calculadora-Basica\obj\Release\Calculadora_Basica.Properties.Resources.resources
+C:\Users\ASUS\OneDrive - Escuela Politécnica Nacional\Escritorio\Proyecto Calculadora\Calculadora-Basica\obj\Release\Calculadora-Basica.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive - Escuela Politécnica Nacional\Escritorio\Proyecto Calculadora\Calculadora-Basica\obj\Release\Calculadora-Basica.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive - Escuela Politécnica Nacional\Escritorio\Proyecto Calculadora\Calculadora-Basica\obj\Release\Calculadora-Basica.exe
+C:\Users\ASUS\OneDrive - Escuela Politécnica Nacional\Escritorio\Proyecto Calculadora\Calculadora-Basica\obj\Release\Calculadora-Basica.pdb
+C:\Users\ASUS\OneDrive - Escuela Politécnica Nacional\Escritorio\Proyecto Calculadora\Calculadora-Basica\obj\Release\Calculadora-Basica.csproj.AssemblyReference.cache
